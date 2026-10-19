@@ -1,0 +1,77 @@
+.calender-boxes > VBox {
+    -fx-border-color: black;
+    -fx-background-color: #968F89;
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+}
+
+.calender-boxes > VBox:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.calender-boxes > VBox > Label{
+    -fx-text-fill: white;
+    -fx-font-family: 'Helvetica';
+}
+
+.root-pane{
+    -fx-background-image: url('winter.jpg');
+}
+
+.month-spacing {
+    -fx-spacing: 0px;
+}
+
+.top-bar > Button{
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.top-bar > Button:hover{
+    -fx-background-color: red;
+}
+.bottom-info{
+    -fx-alignment: center;
+    -fx-background-color: #968F89;
+}
+
+.bottom-info > Label{
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+}
+
+.bottom-info > HBox{
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+}
+
+.bottom-info > HBox > Label {
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+}
+
+.bottom-info > HBox > Button {
+    -fx-padding: 0px 24px 0px 24px;
+    -fx-border-color: rgba(161, 161, 161, 0.8);
+    -fx-border-width: 3px;
+    -fx-background-color: rgba(211, 211, 211, 0.6);
+    -fx-text-fill: black;
+}
+
+.bottom-info > HBox > Button:hover {
+    -fx-background-color: rgba(211, 211, 211, 0.9);
+}
+
+.bottom-info > HBox > TextField {
+    -fx-pref-width: 40px;
+    -fx-pref-height: 24px;
+    -fx-min-height: 0px;
+    -fx-font-size: 16px;
+    -fx-background-color: #968F89;
+    -fx-background-color: rgba(95, 95, 110, 0.1);
+    -fx-font-family: 'Impact';
+    -fx-text-fill: black;
+}
+
+

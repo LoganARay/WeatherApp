@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<VBox fx:id="vpane" prefHeight="400.0" prefWidth="510.0" styleClass="root-pane" stylesheets="@calender.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.farmingdale.weatherapp.HelloController">
+         <children>
+            <HBox prefWidth="510.0" styleClass="top-bar">
+                  <Button fx:id="jan" mnemonicParsing="false" prefWidth="43" text="Jan" />
+                  <Button fx:id="feb" mnemonicParsing="false" prefWidth="43" text="Feb" />
+                  <Button fx:id="mar" mnemonicParsing="false" prefWidth="43" text="Mar" />
+                  <Button fx:id="apr" mnemonicParsing="false" prefWidth="43" text="Apr" />
+                  <Button fx:id="may" mnemonicParsing="false" prefWidth="43" text="May" />
+                  <Button fx:id="june" mnemonicParsing="false" prefWidth="43" text="June" />
+                  <Button fx:id="july" mnemonicParsing="false" prefWidth="43" text="July" />
+                  <Button fx:id="aug" mnemonicParsing="false" prefWidth="43" text="Aug" />
+                  <Button fx:id="sept" mnemonicParsing="false" prefWidth="43" text="Sept" />
+                  <Button fx:id="oct" mnemonicParsing="false" prefWidth="43" text="Oct" />
+                  <Button fx:id="nov" mnemonicParsing="false" prefWidth="43" text="Nov" />
+                  <Button fx:id="dec" mnemonicParsing="false" prefWidth="43" text="Dec" />
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </HBox>
+      <TilePane alignment="TOP_CENTER" prefHeight="326.0" prefWidth="512.0" styleClass="calender-boxes" xmlns:fx="http://javafx.com/fxml">
+         <padding>
+            <Insets left="3.0" />
+         </padding>
+         <children>
+            <VBox fx:id="cal01" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date01"/>
+                  <Label fx:id="temp01"/>
+                  <Label fx:id="hum01"/>
+                  <Label fx:id="prec01"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal02" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date02"/>
+                  <Label fx:id="temp02"/>
+                  <Label fx:id="hum02"/>
+                  <Label fx:id="prec02"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal03" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date03"/>
+                  <Label fx:id="temp03"/>
+                  <Label fx:id="hum03"/>
+                  <Label fx:id="prec03"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal04" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date04"/>
+                  <Label fx:id="temp04"/>
+                  <Label fx:id="hum04"/>
+                  <Label fx:id="prec04"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal05" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date05"/>
+                  <Label fx:id="temp05"/>
+                  <Label fx:id="hum05"/>
+                  <Label fx:id="prec05"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal06" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date06"/>
+                  <Label fx:id="temp06"/>
+                  <Label fx:id="hum06"/>
+                  <Label fx:id="prec06"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal07" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date07"/>
+                  <Label fx:id="temp07"/>
+                  <Label fx:id="hum07"/>
+                  <Label fx:id="prec07"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal08" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date08"/>
+                  <Label fx:id="temp08"/>
+                  <Label fx:id="hum08"/>
+                  <Label fx:id="prec08"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal09" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date09"/>
+                  <Label fx:id="temp09"/>
+                  <Label fx:id="hum09"/>
+                  <Label fx:id="prec09"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal10" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date10"/>
+                  <Label fx:id="temp10"/>
+                  <Label fx:id="hum10"/>
+                  <Label fx:id="prec10"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal11" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date11"/>
+                  <Label fx:id="temp11"/>
+                  <Label fx:id="hum11"/>
+                  <Label fx:id="prec11"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal12" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date12"/>
+                  <Label fx:id="temp12"/>
+                  <Label fx:id="hum12"/>
+                  <Label fx:id="prec12"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal13" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date13"/>
+                  <Label fx:id="temp13"/>
+                  <Label fx:id="hum13"/>
+                  <Label fx:id="prec13"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal14" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date14"/>
+                  <Label fx:id="temp14"/>
+                  <Label fx:id="hum14"/>
+                  <Label fx:id="prec14"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal15" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date15"/>
+                  <Label fx:id="temp15"/>
+                  <Label fx:id="hum15"/>
+                  <Label fx:id="prec15"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal16" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date16"/>
+                  <Label fx:id="temp16"/>
+                  <Label fx:id="hum16"/>
+                  <Label fx:id="prec16"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal17" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date17"/>
+                  <Label fx:id="temp17"/>
+                  <Label fx:id="hum17"/>
+                  <Label fx:id="prec17"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal18" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date18"/>
+                  <Label fx:id="temp18"/>
+                  <Label fx:id="hum18"/>
+                  <Label fx:id="prec18"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal19" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date19"/>
+                  <Label fx:id="temp19"/>
+                  <Label fx:id="hum19"/>
+                  <Label fx:id="prec19"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal20" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date20"/>
+                  <Label fx:id="temp20"/>
+                  <Label fx:id="hum20"/>
+                  <Label fx:id="prec20"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal21" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date21"/>
+                  <Label fx:id="temp21"/>
+                  <Label fx:id="hum21"/>
+                  <Label fx:id="prec21"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal22" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date22"/>
+                  <Label fx:id="temp22"/>
+                  <Label fx:id="hum22"/>
+                  <Label fx:id="prec22"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal23" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date23"/>
+                  <Label fx:id="temp23"/>
+                  <Label fx:id="hum23"/>
+                  <Label fx:id="prec23"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal24" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date24"/>
+                  <Label fx:id="temp24"/>
+                  <Label fx:id="hum24"/>
+                  <Label fx:id="prec24"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal25" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date25"/>
+                  <Label fx:id="temp25"/>
+                  <Label fx:id="hum25"/>
+                  <Label fx:id="prec25"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal26" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date26"/>
+                  <Label fx:id="temp26"/>
+                  <Label fx:id="hum26"/>
+                  <Label fx:id="prec26"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal27" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date27"/>
+                  <Label fx:id="temp27"/>
+                  <Label fx:id="hum27"/>
+                  <Label fx:id="prec27"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal28" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date28"/>
+                  <Label fx:id="temp28"/>
+                  <Label fx:id="hum28"/>
+                  <Label fx:id="prec28"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal29" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date29"/>
+                  <Label fx:id="temp29"/>
+                  <Label fx:id="hum29"/>
+                  <Label fx:id="prec29"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal30" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date30"/>
+                  <Label fx:id="temp30"/>
+                  <Label fx:id="hum30"/>
+                  <Label fx:id="prec30"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal31" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date31"/>
+                  <Label fx:id="temp31"/>
+                  <Label fx:id="hum31"/>
+                  <Label fx:id="prec31"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal32" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date32"/>
+                  <Label fx:id="temp32"/>
+                  <Label fx:id="hum32"/>
+                  <Label fx:id="prec32"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal33" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date33"/>
+                  <Label fx:id="temp33"/>
+                  <Label fx:id="hum33"/>
+                  <Label fx:id="prec33"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal34" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date34"/>
+                  <Label fx:id="temp34"/>
+                  <Label fx:id="hum34"/>
+                  <Label fx:id="prec34"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal35" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date35"/>
+                  <Label fx:id="temp35"/>
+                  <Label fx:id="hum35"/>
+                  <Label fx:id="prec35"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal36" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date36"/>
+                  <Label fx:id="temp36"/>
+                  <Label fx:id="hum36"/>
+                  <Label fx:id="prec36"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal37" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label fx:id="date37"/>
+                  <Label fx:id="temp37"/>
+                  <Label fx:id="hum37"/>
+                  <Label fx:id="prec37"/>
+               </children>
+            </VBox>
+            <VBox fx:id="cal38" prefHeight="70.0" prefWidth="70.0"></VBox>
+            <VBox fx:id="cal39" prefHeight="70.0" prefWidth="70.0"></VBox>
+            <VBox fx:id="cal40" prefHeight="70.0" prefWidth="70.0"></VBox>
+            <VBox fx:id="cal41" prefHeight="70.0" prefWidth="70.0"></VBox>
+            <VBox fx:id="cal42" prefHeight="70.0" prefWidth="70.0"></VBox>
+
+         </children>
+      </TilePane>
+      <VBox fx:id="bottomV" prefHeight="52.0" prefWidth="500.0" styleClass="bottom-info" >
+            <Label fx:id="avgTemp"></Label>
+         <Label fx:id="rainyDays"></Label>
+         <Label fx:id="tempDay"></Label>
+         <HBox fx:id="findTemp">
+            <Label text="Find days with temp"></Label>
+            <Button fx:id="aboveBelow" text="Above"></Button>
+            <TextField fx:id="typeTemp" ></TextField>
+            <Button fx:id="clear" text="Search"></Button>
+         </HBox>
+      </VBox>
+         </children>
+      </VBox>
