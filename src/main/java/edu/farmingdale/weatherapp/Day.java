@@ -47,4 +47,23 @@ public record Day(String date, double temperature, int humidity, double precipit
         if(precipitation > 0.0) { return "Rainy day!"; }
         return "No rain today!";
     }
+
+    /// Outputs stats for this day like if it's a rainy day and the temperature that day
+    ///
+    /// ### Example Usage:
+    /// ```java
+    /// String status = sampleDay.getDaySummary();
+    /// ```
+    ///
+    /// @return multi-lined formated string to report attributes about the day
+    public String getDaySummary() {
+        return """
+           ==================================
+           DAILY WEATHER REPORT: %s
+           ----------------------------------
+           Average Temperature: %s
+           Rainy Days Status: %s
+           ==================================
+           """.formatted(date, avgTemp(), rainyDay());
+    }
 }

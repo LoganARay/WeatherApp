@@ -89,4 +89,23 @@ public record Month (String month, List<Day> calenderMonth) implements Environme
                     .collect(Collectors.toList());
         }
     }
+
+    /// Outputs stats for this month like how many rainy days there are and the average temperature that month
+    ///
+    /// ### Example Usage:
+    /// ```java
+    /// String status = sampleMonth.getMonthSummary();
+    /// ```
+    ///
+    /// @return multi-lined formated string to report attributes about the month
+    public String getMonthSummary() {
+        return """
+           ==================================
+           MONTHLY WEATHER REPORT: %s
+           ----------------------------------
+           Average Temperature: %s
+           Rainy Days Status: %s
+           ==================================
+           """.formatted(month, avgTemp(), rainyDay());
+    }
 }
